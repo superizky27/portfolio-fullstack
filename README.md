@@ -56,9 +56,12 @@ Client (Frontend) → API (Express Server) → Data (JSON)
 
 ```bash
 portfolio-fullstack/
-├── client/
+├── index.html
+├── style.css
+├── app.js
 ├── server/
 ├── plan/
+├── assets/
 └── README.md
 ```
 
@@ -76,7 +79,7 @@ node server.js
 
 ### 2. Jalankan Frontend
 
-Buka file `client/index.html` menggunakan browser atau Live Server.
+Buka file `index.html` menggunakan browser atau Live Server.
 
 ---
 
@@ -120,6 +123,25 @@ Saya tertarik pada:
 - pembangunan sistem backend yang scalable  
 - desain API yang clean dan efisien  
 - pendekatan problem-solving yang terstruktur  
+
+---
+
+## 🌐 Live Demo
+
+Frontend:
+https://superizky27.github.io/portfolio-fullstack/
+
+Backend API:
+https://portfolio-fullstack.onrender.com/projects
+
+---
+
+## 🚀 Deployment
+
+- Frontend di-deploy menggunakan GitHub Pages
+- Backend API di-deploy menggunakan Render
+
+Frontend mengambil data secara dinamis dari backend melalui REST API.
 
 ---
 

@@ -34,6 +34,12 @@ Project berhasil menghasilkan:
 
 ---
 
+## 🔧 Penyesuaian Struktur
+
+Dilakukan penyesuaian struktur project dengan memindahkan file frontend ke root directory agar kompatibel dengan GitHub Pages.
+
+---
+
 ## 🧠 Refleksi
 
 Dari project ini saya memahami bahwa:
