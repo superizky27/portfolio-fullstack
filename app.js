@@ -1,6 +1,6 @@
 const container = document.getElementById("project-list");
 
-fetch("https://portfolio-fullstack.onrender.com/projects")
+fetch("https://portfolio-fullstack-production-1dd2.up.railway.app/projects")
   .then(res => res.json())
   .then(data => {
     data.forEach(project => {
