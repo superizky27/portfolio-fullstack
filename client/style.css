@@ -1,0 +1,158 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+/* CONTAINER */
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #020617;
+  border-bottom: 1px solid #1e293b;
+}
+
+.navbar h1 {
+  font-size: 20px;
+  color: #38bdf8;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #cbd5f5;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #94a3b8;
+}
+
+/* SECTIONS */
+section {
+  margin-top: 60px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+
+/* CARDS */
+.card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 15px;
+  border: 1px solid #1e293b;
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #38bdf8;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.card h3 {
+  margin-bottom: 5px;
+}
+
+/* CONTACT */
+#contact p {
+  color: #94a3b8;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  border-top: 1px solid #1e293b;
+  color: #64748b;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  /* Navbar jadi tengah */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .navbar li {
+    margin: 8px 0;
+  }
+
+  /* Text center */
+  section {
+    text-align: center;
+  }
+
+  #about p {
+    text-align: center;
+  }
+
+  #contact {
+    text-align: center;
+  }
+
+  /* Hero lebih kecil */
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  /* Card tetap readable */
+  .card {
+    text-align: left;
+  }
+}
